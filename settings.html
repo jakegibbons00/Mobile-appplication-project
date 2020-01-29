@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UniFoody</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="UniFoody.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div id="mySidebar" class="sidebar"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> <a href="index.html">Menu</a> <a href="recipes.html">Recipes</a> <a href="ingredients.html">Ingredients</a> <a href="list.html">Shopping list</a> <a href="settings.html">Settings</a> </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center"><img src="images/logo1.png" alt="image" height="200" width="200" id="logo"></h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <input type="text" name="search" placeholder="Search.." style="width:450px;height: 30px;">
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="border"> <a href="index.html">
+        <button class="btn warning">Menu</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="recipes.html">
+        <button class="btn warning">Recipes</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="ingredients.html">
+        <button class="btn warning">Ingredients</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="list.html">
+        <button class="btn warning">Shopping List</button>
+        </a> </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" style="align-content: center;">
+        <div class="heading"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12" style="align-content: center;">
+      <div class="heading">
+        <div style="overflow-x:auto;">
+          <table>
+            <tr>
+              <td>User Settings</td>
+				   <td></td>
+            </tr>
+            <tr>
+              <td>Logout</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Notifications</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Software 1.0</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Avoid Meat</td>
+              <td></td>
+            </tr>
+        
+            <tr>
+              <td>HELP</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Rate us</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Legal</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Manage favourites</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+	function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+	function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UniFoody</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="UniFoody.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div id="mySidebar" class="sidebar"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> <a href="index.html">Menu</a> <a href="recipes.html">Recipes</a> <a href="ingredients.html">Ingredients</a> <a href="list.html">Shopping list</a> <a href="settings.html">Settings</a> </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center"><img src="images/logo1.png" alt="image" height="200" width="200" id="logo"></h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <input type="text" name="search" placeholder="Search.." style="width:450px;height: 30px;">
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="border"> <a href="index.html">
+        <button class="btn warning">Menu</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="recipes.html">
+        <button class="btn warning">Recipes</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="ingredients.html">
+        <button class="btn warning">Ingredients</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="list.html">
+        <button class="btn warning">Shopping List</button>
+        </a> </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" style="align-content: center;">
+        <div class="heading1" style="color:#fc9f31; background-color: #EAEAEA;"> Steak and Chips</div>
+      </div>
+    </div>
+  </div>
+</div>
+	  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" style="align-content: center;">
+        <div class="heading1" style="color:#fc9f31; background-color: #EAEAEA;"> <img class="center-block" src="images/steakchips.jpg"  style="border-radius:8px;" alt="image" height="300" width="400" id="spagbol"> </div></div>
+      </div>
+    </div>
+
+	
+   
+	
+   
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12" style="align-content: center;">
+      <div class="heading1"> </div>
+      <div class="ingredients3"> <br>
+        <p> Ingredients </p>
+        <p> 
+
+1 large potato
+
+ (200g), cut into chunky chips or wedges
+2 tsp vegetable oil
+1 tbsp butter
+
+, softened
+1 tsp Dijon mustard
+1 tsp finely chopped capers
+
+150g sirloin or rump steak
+
+, at room temperature, excess fat trimmed
+1 small courgette
+
+, diced or cut into long strips approx ½ cm wide
+about 8 cherry tomatoes on the vine</p>
+        <p> Method </p>
+        <p> 
+Heat oven to 220C/200C fan/gas 7. Toss the chips with 1 tsp oil and some seasoning. Tip onto a baking sheet and roast for 30 mins, turning halfway through. Mash the butter, mustard, capers and some seasoning together.
+ <br>
+When the chips are halfway through cooking, rub the remaining oil into the steak and season. Heat a heavy-based ovenproof frying pan on a high heat. Sear the steak for 2-4 mins on each side (2 for rare, 4 for well done) and leave to rest, covered, on a plate.
+ <br>
+Add the courgette to the steak pan and fry for 1 min, then add the tomatoes, and melt half the butter in the pan, spooning it over the veg. Transfer to the oven (if you don’t have an ovenproof pan, transfer to a baking tray), and roast on the shelf under the chips for 10 mins.
+ <br>
+Serve the steak with the remaining butter on top and the veg and chips on the side.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html>

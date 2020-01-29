@@ -1,0 +1,125 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UniFoody</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="UniFoody.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div id="mySidebar" class="sidebar"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> <a href="index.html">Menu</a> <a href="recipes.html">Recipes</a> <a href="ingredients.html">Ingredients</a> <a href="list.html">Shopping list</a> <a href="settings.html">Settings</a> </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center"><img src="images/logo1.png" alt="image" height="200" width="200" id="logo"></h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <input type="text" name="search" placeholder="Search.." style="width:450px;height: 30px;">
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="border"> <a href="index.html">
+        <button class="btn warning">Menu</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="recipes.html">
+        <button class="btn warning">Recipes</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="ingredients.html">
+        <button class="btn warning">Ingredients</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="list.html">
+        <button class="btn warning">Shopping List</button>
+        </a> </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" style="align-content: center;">
+        <div class="heading1" style="color:#fc9f31; background-color: #EAEAEA;">Frying pan pizza bianco with mushrooms & egg</div>
+      </div>
+    </div>
+  </div>
+</div>
+	  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" style="align-content: center;">
+        <div class="heading1" style="color:#fc9f31; background-color: #EAEAEA;"> <img class="center-block" src="images/pizzapan.png"  style="border-radius:8px;" alt="image" height="300" width="400" id="spagbol"> </div></div>
+      </div>
+    </div>
+	
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12" style="align-content: center;">
+      <div class="heading1"> </div>
+      <div class="ingredients"> <br>
+        <p> Ingredients </p>
+        <p> 1 ½ tsp fennel seeds
+175g self-raising flour
+2 tsp oil, plus a drizzle for frying
+1 garlic clove
+4 rosemary
+ sprigs
+140g mushrooms
+85g light cream cheese
+1 egg
+good pinch of chilli flakes
+
+</p>
+        <p> Method </p>
+        <p> 
+
+In a large bowl, mix the flour with the oil, 85ml water and a pinch of salt to make a dough. Tip onto the work surface and knead for 1-2 mins to bring together into a smooth ball, then return to the bowl, cover with a tea towel and set aside.
+
+Heat a drizzle of oil in a flameproof frying pan, roughly 22cm wide. Add the garlic and most of the rosemary and sizzle for 1-2 mins until just turning golden. Add the mushrooms and cook for 10 mins or until golden and tender. Season and tip out onto a plate. Shape the dough into a thin disc roughly the same size as your pan – you can do this with your hands, no need to use a rolling pin. Place in the pan and cook for 4-5 mins over a low-medium heat, until the underside is golden. Use a fish slice to flip over, then cook for another 4-5 mins.
+
+Heat the grill to high. Season the cream cheese and spread over the pizza. Top with the mushrooms, leaving space in the centre for the egg. Crack the egg into the space and season, then place the pan under the grill for 3-4 mins until the white has set but the yolk is still a little runny. Sprinkle with the chilli flakes and remaining rosemary before serving.
+
+ </p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html>

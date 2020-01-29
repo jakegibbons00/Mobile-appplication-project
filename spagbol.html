@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UniFoody</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="UniFoody.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div id="mySidebar" class="sidebar"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> <a href="index.html">Menu</a> <a href="recipes.html">Recipes</a> <a href="ingredients.html">Ingredients</a> <a href="list.html">Shopping list</a> <a href="settings.html">Settings</a> </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center"><img src="images/logo1.png" alt="image" height="200" width="200" id="logo"></h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <input type="text" name="search" placeholder="Search.." style="width:450px;height: 30px;">
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="border"> <a href="index.html">
+        <button class="btn warning">Menu</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="recipes.html">
+        <button class="btn warning">Recipes</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="ingredients.html">
+        <button class="btn warning">Ingredients</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="list.html">
+        <button class="btn warning">Shopping List</button>
+        </a> </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" style="align-content: center;">
+        <div class="heading1" style="color:#fc9f31; background-color: #EAEAEA;"> Spagetti Bolognese</div>
+      </div>
+    </div>
+  </div>
+</div>
+	  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" style="align-content: center;">
+        <div class="heading1" style="color:#fc9f31; background-color: #EAEAEA;"> <img class="center-block" src="images/spagettibol.jpg"  style="border-radius:8px;" alt="image" height="300" width="400" id="spagbol"> </div></div>
+      </div>
+    </div>
+
+	
+   
+	
+   
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12" style="align-content: center;">
+      <div class="heading1"> </div>
+      <div class="ingredients2"> <br>
+        <p> Ingredients </p>
+        <p> 1 tbsp olive oil
+          4 rashers smoked streaky bacon, finely chopped
+          2 medium onions
+          2 carrots
+          2 celery sticks, finely chopped
+          2 garlic cloves, finely chopped
+          2-3 sprigs rosemary
+          500g beef mince
+			<p></p>
+			For the bolognese sauce
+          2 x 400g tins plum tomatoes
+          small pack basil
+          1 tsp dried oregano
+          2 fresh bay leaves
+          2 tbsp tomato purée
+          1 beef stock cube
+          1 red chilli, deseeded and finely chopped (optional)
+          125ml red wine
+          6 cherry tomatoes, sliced in half </p>
+        <p> Method </p>
+        <p> Method
+
+1. Put a large saucepan on a medium heat and add 1 tbsp olive oil.
+			<br>
+2. Add 4 finely chopped bacon rashers and fry for 10 mins until golden and crisp.
+			<br>
+3. Reduce the heat and add the 2 onions, 2 carrots, 2 celery sticks, 2 garlic cloves and the
+leaves from 2-3 sprigs rosemary, all finely chopped, then fry for 10 mins. Stir the
+veg often until it softens.
+<br>
+4. Increase the heat to medium-high, add 500g beef mince and cook stirring for 3-4 mins until
+the meat is browned all over.
+			<br>
+5. Add 2 tins plum tomatoes, the finely chopped leaves from ¾ small pack basil, 1 tsp dried
+oregano, 2 bay leaves, 2 tbsp tomato purée, 1 beef stock cube, 1 deseeded and finely
+chopped red chilli (if using), 125ml red wine and 6 halved cherry tomatoes. Stir with a
+wooden spoon, breaking up the plum tomatoes.
+			<br>
+6. Bring to the boil, reduce to a gentle simmer and cover with a lid. Cook for 1 hr 15 mins
+stirring occasionally, until you have a rich, thick sauce.
+			<br>
+7. Add the 75g grated parmesan, check the seasoning and stir.<br>
+8. When the bolognese is nearly finished, cook 400g spaghetti following the pack instructions.<br>
+9. Drain the spaghetti and stir into the bolognese sauce. Serve with more grated parmesan, the
+remaining basil leaves and crusty bread, if you like. </p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html>

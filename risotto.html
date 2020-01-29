@@ -1,0 +1,125 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UniFoody</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="UniFoody.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div id="mySidebar" class="sidebar"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> <a href="index.html">Menu</a> <a href="recipes.html">Recipes</a> <a href="ingredients.html">Ingredients</a> <a href="list.html">Shopping list</a> <a href="settings.html">Settings</a> </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center"><img src="images/logo1.png" alt="image" height="200" width="200" id="logo"></h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <input type="text" name="search" placeholder="Search.." style="width:450px;height: 30px;">
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="border"> <a href="index.html">
+        <button class="btn warning">Menu</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="recipes.html">
+        <button class="btn warning">Recipes</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="ingredients.html">
+        <button class="btn warning">Ingredients</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="list.html">
+        <button class="btn warning">Shopping List</button>
+        </a> </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" style="align-content: center;">
+        <div class="heading1" style="color:#fc9f31; background-color: #EAEAEA;">Chorizo & rosemary pearl barley risotto</div>
+      </div>
+    </div>
+  </div>
+</div>
+	  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" style="align-content: center;">
+        <div class="heading1" style="color:#fc9f31; background-color: #EAEAEA;"> <img class="center-block" src="images/risotto.png"  style="border-radius:8px;" alt="image" height="300" width="400" id="spagbol"> </div></div>
+      </div>
+    </div>
+	
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12" style="align-content: center;">
+      <div class="heading1"> </div>
+      <div class="ingredients"> <br>
+        <p> Ingredients </p>
+        <p> 
+225 chorizo ring
+1 onion
+1 garlic clove
+300g pearl barley
+400g can chopped tomato with sliced olives
+1l hot chicken stock, made with 1 stock cube
+2 stalks rosemary
+
+
+</p>
+        <p> Method </p>
+        <p> 
+Heat a non-stick frying pan over a medium heat and fry the chorizo for 3-4 mins until it turns golden and releases its oil. Remove with a slotted spoon and set aside.
+
+Add the onion and garlic to the pan, and cook for 3-4 mins, until they begin to soften. Add the pearl barley and stir well to coat in the oil, before tipping in the chopped tomatoes and the chicken stock. Bring just to the boil, then turn down to a simmer and cook for 30 mins, stirring occasionally, until all the liquid has been absorbed and the pearl barley is tender. You may need to top up with a little extra water as you go.
+
+Season and stir in the rosemary and chorizo to serve.
+
+
+
+ </p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html>

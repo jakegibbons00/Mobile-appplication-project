@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UniFoody</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="UniFoody.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div id="mySidebar" class="sidebar"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> <a href="index.html">Menu</a> <a href="ingredients.html">Recipes</a> <a href="ingredients.html">Ingredients</a> <a href="list.html">Shopping list</a> <a href="settings.html">Settings</a> </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center"><img src="images/logo1.png" alt="image" height="200" width="200" id="logo"></h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <input type="text" name="search" placeholder="Search.." style="width:450px;height: 30px;">
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="border"> <a href="index.html">
+        <button class="btn warning">Menu</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="recipes.html">
+        <button class="btn warning">Recipes</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="ingredients.html">
+        <button class="btn warning">Ingredients</button>
+        </a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="border"> <a href="list.html">
+        <button class="btn warning">Shopping List</button>
+        </a> </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Favourites')" id="defaultOpen">Favourites</button>
+        <button class="tablinks" onclick="openCity(event, 'Meatbased')">Meat based</button>
+        <button class="tablinks" onclick="openCity(event, 'Vegetarian')">Vegetable based</button>
+        <button class="tablinks" onclick="openCity(event, 'Cheap')">Cost friendly</button>
+    
+      </div>
+      <div class="col">
+        <div id="Favourites" class="tabcontent">
+          <div class="col">
+            <div class="container">
+              <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0"></h1>
+              <hr class="mt-2 mb-5">
+              <div class="row text-center text-lg-left">
+                <div class="col-lg-3 col-md-4 col-6">Spaghetti Bolognese<a href="spagbol.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/spagettibol.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Pasta <br>   Bake <a href="pastabake.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/pasta-bake.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Sausage<br> and  Mash <a href="sausagemash.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/sausagemash.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Steak <br> and chips <a href="steakchips.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/steakchips.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Chicken & Mushroom Pie <br><a href="chickenmpie.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/cmpie.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Chicken<br>Casserole<br><br> <a href="chickencasserole.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/chickencasserole.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Lasagne <br><br><br> <a href="lasgne.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/lasgne.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Prawn <br> Pasta <br><br><a href="prawn.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/shrimp.jpg" alt=""> </a> </div>
+                <div class="col"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div id="Meatbased" class="tabcontent">
+          <div class="col">
+            <div class="container">
+              <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0"></h1>
+              <hr class="mt-2 mb-5">
+              <div class="row text-center text-lg-left">
+                <div class="col-lg-3 col-md-4 col-6">Spaghetti Bolognese <a href="spagbol.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/spagettibol.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Pasta <br>   Bake <a href="pastabake.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/pasta-bake.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Sausage<br> and  Mash  <a href="sausagemash.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/sausagemash.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Steak <br> and chips  <a href="steakchips.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/steakchips.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Chicken & Mushroom Pie<br> <a href="chickenmpie.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/cmpie.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Chicken<br>Casserole<br><br> <a href="chickencasserole.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/chickencasserole.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Lasagne <br><br><br> <a href="lasgne.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/lasgne.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6"> Prawn <br> Pasta <br><br><a href="prawn.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/shrimp.jpg" alt=""> </a> </div>
+                <div class="col"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <div class="col">
+        <div id="Vegetarian" class="tabcontent">
+          <div class="col">
+            <div class="container">
+              <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0"></h1>
+              <hr class="mt-2 mb-5">
+              <div class="row text-center text-lg-left">
+                <div class="col-lg-3 col-md-4 col-6">Caponata Pasta<br><br> <a href="caponatapasta.html" class="d-block mb-4 h-100"><img class="img-fluid img-thumbnail" src="images/caponata-pasta.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Sweet potato cakes & eggs<a href="sweetp.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/sweetp.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Cheese vegetable tart<a href="cheesetart.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/cheesetart.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Creamy broccoli gnocchi<a href="gnocchi.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/gnocchi.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Asparagus & broad bean lasagne<a href="beanlasagne.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/lasagnev.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Moroccan freekeh traybake<a href="traybake.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/lentils.jpg" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Roasted aubergine & tomato curry <a href="curry.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/curry.jpg" alt=""> </a> </div>
+                <div class="col"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+		 
+		 <div class="col">
+        <div id="Cheap" class="tabcontent">
+          <div class="col">
+            <div class="container">
+              <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0"></h1>
+              <hr class="mt-2 mb-5">
+              <div class="row text-center text-lg-left">
+                <div class="col-lg-3 col-md-4 col-6">Sausage Ragu <br><br><br><a href="ragu.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/ragu.png" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Spiced koftas with honey & chickpeas<a href="kofta.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/kofta.png" alt=""> </a> </div>
+                 <div class="col-lg-3 col-md-4 col-6">Pizza bianco with mushrooms & egg <a href="pizzpan.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/pizzapan.png" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Spicy oven-baked chicken & chips <a href="spicychicken.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/chickenchips.png" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Chicken drumsticks & sesame rice salad<a href="drumstick.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/chickenses.png" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Chorizo & rosemary pearl barley risotto<a href="risotto.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/risotto.png" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Jumbo sausage roll with salsa beans<a href="sauasageroll.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/sausagerolll.png" alt=""> </a> </div>
+                <div class="col-lg-3 col-md-4 col-6">Cheesy ham & broccoli pasta<a href="broccoli.html" class="d-block mb-4 h-100"> <img class="img-fluid img-thumbnail" src="images/chbpasta.png" alt=""> </a> </div>
+                <div class="col"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>		 
+		 
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function openCity(evt, dishName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(dishName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+	function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html>
